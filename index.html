@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>ORDER STUDIOS</title>
   <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="icon" type="image/png" href="/favicon.png" sizes="32x32" />
   <style>
     body {
       background-color: #1c1c1c;
@@ -12,26 +13,22 @@
     }
   </style>
 </head>
-  <!-- PNG Favicon -->
-<link rel="icon" type="image/png" href="/favicon.png" sizes="32x32">
 <body class="text-white">
-</head>
-<body class="bg-gray-50 text-gray-800">
 
-<!-- Header -->
-<header class="bg-[#1c1c1c] shadow sticky top-0 z-50 border-b border-gray-700">
-  <div class="max-w-7xl mx-auto px-4 py-4 flex justify-between items-center">
-    <div class="flex items-center space-x-3">
-      <img src="https://i.imgur.com/WYp6xNk.png" alt="Logo" class="w-10 h-10 rounded-full object-cover" />
-      <h1 class="text-2xl font-bold">ORDER STUDIOS</h1>
+  <!-- Header -->
+  <header class="bg-[#1c1c1c] shadow sticky top-0 z-50 border-b border-gray-700">
+    <div class="max-w-7xl mx-auto px-4 py-4 flex justify-between items-center">
+      <div class="flex items-center space-x-3">
+        <img src="https://i.imgur.com/WYp6xNk.png" alt="Logo" class="w-10 h-10 rounded-full object-cover" />
+        <h1 class="text-2xl font-bold">ORDER STUDIOS</h1>
+      </div>
+      <nav class="space-x-6">
+        <a href="#screenshots" class="text-gray-300 hover:text-blue-400">Screenshots</a>
+        <a href="#team" class="text-gray-300 hover:text-blue-400">Team</a>
+        <a href="#contact" class="text-gray-300 hover:text-blue-400">Contact</a>
+      </nav>
     </div>
-    <nav class="space-x-6">
-      <a href="#screenshots" class="text-gray-300 hover:text-blue-400">Screenshots</a>
-      <a href="#team" class="text-gray-300 hover:text-blue-400">Team</a>
-      <a href="#contact" class="text-gray-300 hover:text-blue-400">Contact</a>
-    </nav>
-  </div>
-</header>
+  </header>
 
   <!-- Screenshot Section -->
   <section id="screenshots" class="max-w-7xl mx-auto px-4 py-12">
@@ -46,36 +43,43 @@
   </section>
 
   <!-- Team Section -->
-  <section id="team" class="bg-white py-12">
+  <section id="team" class="bg-[#2a2a2a] py-12">
     <div class="max-w-7xl mx-auto px-4">
       <h2 class="text-3xl font-semibold mb-10">Meet the Team</h2>
       <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8">
-        <!-- Team Member -->
-        <!-- Repeat this div for each team member -->
-        <!-- Use different image links or replace placeholders -->
-        <div class="bg-gray-100 p-4 rounded-xl shadow hover:shadow-lg transition">
-          <img src="https://i.imgur.com/oZMSe3b.png" alt="Team Member ${i+1}" class="rounded-full w-24 h-24 mx-auto object-cover" />
+
+        <!-- Team Member 1 -->
+        <div class="bg-[#3a3a3a] p-4 rounded-xl shadow hover:shadow-lg transition">
+          <img src="https://i.imgur.com/oZMSe3b.png" alt="Muffiin" class="rounded-full w-24 h-24 mx-auto object-cover" />
           <div class="text-center mt-4">
-            <h3 class="text-xl font-semibold">Muffiin</h3>
-            <p class="text-sm text-gray-600">Lead Director</p>
-            <p class="mt-2 text-sm">Go subscribe on youtube!!</p>
-                    <div class="bg-gray-100 p-4 rounded-xl shadow hover:shadow-lg transition">
+            <h3 class="text-xl font-semibold text-white">Muffiin</h3>
+            <p class="text-sm text-gray-400">Lead Director</p>
+            <p class="mt-2 text-sm text-gray-300">Go subscribe on YouTube!!</p>
           </div>
-            
-          <img src="https://i.imgur.com/RWkehXf.png" alt="Team Member ${i+1}" class="rounded-full w-24 h-24 mx-auto object-cover" />
+        </div>
+
+        <!-- Team Member 2 -->
+        <div class="bg-[#3a3a3a] p-4 rounded-xl shadow hover:shadow-lg transition">
+          <img src="https://i.imgur.com/RWkehXf.png" alt="Noh_" class="rounded-full w-24 h-24 mx-auto object-cover" />
           <div class="text-center mt-4">
-            <h3 class="text-xl font-semibold">Noh_</h3>
-            <p class="text-sm text-gray-600">Lead Level Designer</p>
-            <p class="mt-2 text-sm">I also made this but who cares</p>
+            <h3 class="text-xl font-semibold text-white">Noh_</h3>
+            <p class="text-sm text-gray-400">Lead Level Designer</p>
+            <p class="mt-2 text-sm text-gray-300">I also made this but who cares.</p>
           </div>
-        </div>`).join('')}
+        </div>
+
+        <!-- Add more team members below if needed -->
+
       </div>
     </div>
   </section>
 
   <!-- Footer -->
-  <footer id="contact" class="bg-gray-200 text-center py-6 mt-12">
-    <p>Contact us at <a href="@osmpteam@gmail.com - @artemisdev48@gmail.com" class="text-blue-600 underline">hello@example.com</a></p>
+  <footer id="contact" class="bg-[#1c1c1c] text-center py-6 mt-12 border-t border-gray-700">
+    <p>Contact us at 
+      <a href="mailto:osmpteam@gmail.com" class="text-blue-400 underline">osmpteam@gmail.com</a> or 
+      <a href="mailto:artemisdev48@gmail.com" class="text-blue-400 underline">artemisdev48@gmail.com</a>
+    </p>
   </footer>
 
 </body>
