@@ -5,33 +5,20 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>ORDER STUDIOS</title>
 
+  <!-- Google Font: Lexend -->
+  <link href="https://fonts.googleapis.com/css2?family=Lexend&display=swap" rel="stylesheet">
+
   <!-- Favicon -->
   <link rel="icon" type="image/png" href="https://i.imgur.com/vM6welO.png" sizes="32x32" />
 
-  <!-- Custom Font -->
-  <style>
-    @font-face {
-      font-family: 'MinecraftFive';
-      src: url('minecraft-five.ttf') format('truetype'); /* swapped from bold to regular */
-      font-weight: normal;
-      font-style: normal;
-    }
-
-    body {
-      font-family: 'MinecraftFive', sans-serif;
-      font-size: 14px; /* smaller default size */
-      font-weight: normal; /* not bold */
-    }
-  </style>
-
-  <!-- Tailwind CSS -->
+  <!-- Tailwind CSS & Font Config -->
   <script src="https://cdn.tailwindcss.com"></script>
   <script>
     tailwind.config = {
       theme: {
         extend: {
           fontFamily: {
-            minecraft: ['MinecraftFive', 'sans-serif'],
+            lexend: ['Lexend', 'sans-serif'],
           },
         },
       },
@@ -47,7 +34,8 @@
   </style>
 </head>
 
-
+<!-- Apply Lexend font globally -->
+<body class="text-white font-lexend">
 
   <!-- Header -->
   <header class="bg-[#1c1c1c] shadow sticky top-0 z-50 border-b border-gray-700">
